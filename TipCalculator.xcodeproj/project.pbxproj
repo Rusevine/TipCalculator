@@ -13,6 +13,7 @@
 		4670DC6F211DF793009202EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4670DC6E211DF793009202EF /* Assets.xcassets */; };
 		4670DC72211DF793009202EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4670DC70211DF793009202EF /* LaunchScreen.storyboard */; };
 		4670DC75211DF793009202EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4670DC74211DF793009202EF /* main.m */; };
+		4670DC7D211DF8F4009202EF /* TipCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4670DC7C211DF8F4009202EF /* TipCalculatorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4670DC71211DF793009202EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4670DC73211DF793009202EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4670DC74211DF793009202EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4670DC7B211DF8F4009202EF /* TipCalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipCalculatorViewController.h; sourceTree = "<group>"; };
+		4670DC7C211DF8F4009202EF /* TipCalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalculatorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +63,14 @@
 			children = (
 				4670DC65211DF791009202EF /* AppDelegate.h */,
 				4670DC66211DF791009202EF /* AppDelegate.m */,
-				4670DC68211DF791009202EF /* ViewController.h */,
-				4670DC69211DF791009202EF /* ViewController.m */,
+				4670DC7B211DF8F4009202EF /* TipCalculatorViewController.h */,
+				4670DC7C211DF8F4009202EF /* TipCalculatorViewController.m */,
 				4670DC6B211DF791009202EF /* Main.storyboard */,
 				4670DC6E211DF793009202EF /* Assets.xcassets */,
 				4670DC70211DF793009202EF /* LaunchScreen.storyboard */,
 				4670DC73211DF793009202EF /* Info.plist */,
+				4670DC68211DF791009202EF /* ViewController.h */,
+				4670DC69211DF791009202EF /* ViewController.m */,
 				4670DC74211DF793009202EF /* main.m */,
 			);
 			path = TipCalculator;
@@ -143,6 +148,7 @@
 			files = (
 				4670DC6A211DF791009202EF /* ViewController.m in Sources */,
 				4670DC75211DF793009202EF /* main.m in Sources */,
+				4670DC7D211DF8F4009202EF /* TipCalculatorViewController.m in Sources */,
 				4670DC67211DF791009202EF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
